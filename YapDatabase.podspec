@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.xcconfig     = { 'OTHER_LDFLAGS' => '-weak_library /usr/lib/libc++.dylib' }
 
   s.public_header_files = 'YapDatabase/Key_Value/YapDatabase.h'
-  s.dependency 'CocoaLumberjack', '~> 1.6.3'
 
   s.requires_arc = true
 
